@@ -1,0 +1,41 @@
+# ========================
+# Python & Django Cache
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.log
+
+# ========================
+# Environments & Secrets
+# ========================
+.env
+.env.local
+.env.*
+venv/
+env/
+.venv/
+
+# ========================
+# Database Volumes & Data
+# ========================
+# Ignore standard SQLite files
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore your specific Docker PostgreSQL volume folder!
+postgres_data/
+
+# Ignore user-uploaded media (if you add this later)
+media/
+
+# ========================
+# IDEs & OS Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
