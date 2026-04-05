@@ -101,10 +101,16 @@ WSGI_APPLICATION = 'core.wsgi.application'
 #     }
 # }
 
+#  Dynamically build the local fallback URL using your .env variables.
+# We set 'db' and '5432' as defaults just in case they are missing from the .env file.
+local_fallback_url = f"postgres://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST', 'db')}:{os.getenv('DB_PORT', '5432')}/{os.getenv('DB_NAME')}"
+
+# Pass that constructed string into dj_database_url
 DATABASES = {
     'default': dj_database_url.config(
-        # This is your local fallback so Docker still works locally
-        default='postgres://postgres:postgres@db:5432/postgres', 
+        # Render will automatically inject 'DATABASE_URL' and override this.
+        # Locally, it won't find 'DATABASE_URL', so it will use your dynamic fallback!
+        default=os.environ.get('DATABASE_URL', local_fallback_url),
         conn_max_age=600
     )
 }
