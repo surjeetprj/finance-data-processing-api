@@ -1,0 +1,273 @@
+[
+{
+    "model": "finance.financialrecord",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "Examination Fees",
+        "description": "Fees for the 4th semester",
+        "amount": "1500.00",
+        "transaction_type": "EXPENSE",
+        "category": "Utilities",
+        "date": "2024-04-04",
+        "created_at": "2026-04-04T08:01:42.707Z",
+        "updated_at": "2026-04-04T11:58:08.327Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "Monthly Electric Bill",
+        "description": "bill for the March month",
+        "amount": "150.00",
+        "transaction_type": "EXPENSE",
+        "category": "Utilities",
+        "date": "2024-04-04",
+        "created_at": "2026-04-04T08:13:59.814Z",
+        "updated_at": "2026-04-04T12:27:29.684Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "title": "Monthly Electric Bill",
+        "description": "March month rent",
+        "amount": "4000.00",
+        "transaction_type": "EXPENSE",
+        "category": "Utilities",
+        "date": "2024-04-04",
+        "created_at": "2026-04-04T12:50:50.562Z",
+        "updated_at": "2026-04-04T12:55:45.125Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 6,
+    "fields": {
+        "user": 3,
+        "title": "Weekly Grocery Run",
+        "description": "",
+        "amount": "85.50",
+        "transaction_type": "EXPENSE",
+        "category": "Food & Dining",
+        "date": "2024-04-01",
+        "created_at": "2026-04-05T07:09:43.922Z",
+        "updated_at": "2026-04-05T07:09:43.922Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 7,
+    "fields": {
+        "user": 3,
+        "title": "Website Design Project",
+        "description": "",
+        "amount": "1200.00",
+        "transaction_type": "INCOME",
+        "category": "Freelance",
+        "date": "2024-04-02",
+        "created_at": "2026-04-05T07:10:09.208Z",
+        "updated_at": "2026-04-05T07:10:09.208Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 8,
+    "fields": {
+        "user": 3,
+        "title": "Netflix Monthly Subscription",
+        "description": "",
+        "amount": "15.99",
+        "transaction_type": "EXPENSE",
+        "category": "Entertainment",
+        "date": "2024-04-03",
+        "created_at": "2026-04-05T07:10:25.682Z",
+        "updated_at": "2026-04-05T07:10:25.682Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 9,
+    "fields": {
+        "user": 3,
+        "title": "Morning Coffee",
+        "description": "",
+        "amount": "4.50",
+        "transaction_type": "EXPENSE",
+        "category": "Food & Dining",
+        "date": "2024-04-04",
+        "created_at": "2026-04-05T07:11:13.614Z",
+        "updated_at": "2026-04-05T07:11:13.614Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 10,
+    "fields": {
+        "user": 3,
+        "title": "Sold Old Monitor on eBay",
+        "description": "",
+        "amount": "150.00",
+        "transaction_type": "INCOME",
+        "category": "Miscellaneous",
+        "date": "2024-04-04",
+        "created_at": "2026-04-05T07:11:24.116Z",
+        "updated_at": "2026-04-05T07:11:24.116Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 11,
+    "fields": {
+        "user": 1,
+        "title": "Monthly Rent Payment",
+        "description": "",
+        "amount": "1500.00",
+        "transaction_type": "EXPENSE",
+        "category": "Housing",
+        "date": "2024-03-01",
+        "created_at": "2026-04-05T07:13:52.882Z",
+        "updated_at": "2026-04-05T07:13:52.882Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 12,
+    "fields": {
+        "user": 1,
+        "title": "Filled up the gas tank",
+        "description": "",
+        "amount": "45.00",
+        "transaction_type": "EXPENSE",
+        "category": "Transportation",
+        "date": "2024-03-15",
+        "created_at": "2026-04-05T07:14:01.282Z",
+        "updated_at": "2026-04-05T07:14:01.282Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 13,
+    "fields": {
+        "user": 1,
+        "title": "Stock Dividend Payout",
+        "description": "",
+        "amount": "32.50",
+        "transaction_type": "INCOME",
+        "category": "Investments",
+        "date": "2024-03-28",
+        "created_at": "2026-04-05T07:14:08.790Z",
+        "updated_at": "2026-04-05T07:14:08.790Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 14,
+    "fields": {
+        "user": 1,
+        "title": "Prescription Refill",
+        "description": "",
+        "amount": "25.00",
+        "transaction_type": "EXPENSE",
+        "category": "Healthcare",
+        "date": "2024-04-02",
+        "created_at": "2026-04-05T07:14:15.159Z",
+        "updated_at": "2026-04-05T07:14:15.159Z"
+    }
+},
+{
+    "model": "finance.financialrecord",
+    "pk": 15,
+    "fields": {
+        "user": 1,
+        "title": "New Running Shoes",
+        "description": "",
+        "amount": "110.00",
+        "transaction_type": "EXPENSE",
+        "category": "Shopping",
+        "date": "2024-04-03",
+        "created_at": "2026-04-05T07:14:21.652Z",
+        "updated_at": "2026-04-05T07:14:21.652Z"
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$XyoAIJzImRzkX3xMu1ioPX$QUq2vswtk4HogQHJysuCMRqZtSFl0rjVcLhY7WKArNA=",
+        "last_login": "2026-04-05T07:06:34.172Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-04T06:02:59.842Z",
+        "role": "ADMIN",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$NAnu3lN12FCd6U5qFUOj2o$V4Wc5OxAFIRM7bUsB4hUXd+1cOxYUBgxZzUSXVB7vHE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "alice_analyst",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-04-04T06:52:18.346Z",
+        "role": "ANALYST",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$IPXHD4uG30fvphzzli1082$vC7goxpZLoGF9Dqw/wbbuRgGS1dHHSy8NeUeK/2s3L0=",
+        "last_login": "2026-04-04T12:26:20Z",
+        "is_superuser": false,
+        "username": "bob_editor",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-04T06:55:40Z",
+        "role": "EDITOR",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$qSkaB0vaGAKRSEWeUvk15P$9N7rX/NNKwzoaYQVcfPlcd4Ody3mnVuM7YnKSXQfZ7o=",
+        "last_login": "2026-04-04T12:21:41.543Z",
+        "is_superuser": false,
+        "username": "surjeet",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-04-04T12:19:50Z",
+        "role": "EDITOR",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
