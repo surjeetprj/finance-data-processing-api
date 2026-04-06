@@ -14,7 +14,7 @@ A robust, role-based REST API for managing and analyzing financial records. Buil
 This API enforces strict Role-Based Access Control (RBAC) to ensure data integrity and security.
 
 * **🛡️ Admin:** Full system access. Can create, read, update, and delete all financial records. Has full access to dashboard analytics and user management.
-* **✍️ Editor:** Data entry focus. Can view, create, and update financial records. *Cannot* delete records or access high-level dashboard analytics.
+* **✍️ Editor:** Data entry focus. Can view all, create new, but only modify/delete their own records.
 * **📊 Analyst:** Read-only oversight. Can view all financial records and access the dashboard analytics to generate reports, but *cannot* create, modify, or delete any data.
 
 ## 🛠️ Tech Stack
