@@ -1,4 +1,4 @@
-```markdown
+
 # Finance Data Processing and Access Control Backend
 
 A robust, role-based REST API for managing and analyzing financial records. Built with Django REST Framework, PostgreSQL, and Docker.
